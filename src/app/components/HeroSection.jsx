@@ -4,8 +4,12 @@ import Image from "next/image";
 import {about} from '../data';
 
 const HeroSection = () => {
+    const downloadCV = () => {
+
+    }
+
     return(
-        <section>
+        <section id={'hero'}>
             <div className={'grid grid-cols-1 lg:grid-cols-12'}>
                 <div className={'col-span-7 place-self-center text-center sm:text-left'}>
                     <h1 className={'text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold'}>
@@ -35,7 +39,9 @@ const HeroSection = () => {
                     </p>
                     <div>
                         <button className={'px-6 py-3 w-full sm:w-fit rounded-full mr-4 text-black bg-white hover:bg-slate-400'}>Hire Me</button>
-                        <button className={'px-6 py-3 w-full sm:w-fit rounded-full text-white border border-white bg-transparent hover:bg-slate-500 mt-3'}>Download CV</button>
+                        <button onClick={downloadCV} className={'px-6 py-3 w-full sm:w-fit rounded-full text-white border border-white bg-transparent hover:bg-slate-500 mt-3'}>
+                            <a href={'/PrathamPatel_Resume.pdf'} download={'PrathamPatel_Resume'} rel={"noopener noreferrer"} target={'_blank'}>Download CV</a>
+                        </button>
                     </div>
                 </div>
                 <div className={'col-span-5 place-self-center mt-4 lg:mt-0'}>

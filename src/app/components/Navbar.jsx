@@ -9,8 +9,8 @@ import Image from "next/image";
 const Navbar = () => {
     const navLinks = [
         {
-            title: 'About',
-            href: '#about'
+            title: 'Skills',
+            href: '#skills'
         },
         {
             title: 'Projects',
@@ -30,7 +30,7 @@ const Navbar = () => {
 
     return(
         <nav className={'fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-80'}>
-            <div className={'flex flex-wrap items-center justify-between mx-auto mt-5 px-5'}>
+            <div className={'flex flex-wrap items-center justify-between mx-auto mt-3 px-5'}>
                 <Link href={"/"} className={'text-5xl text-white font-semibold'}>
                     <Image className={'rounded-full'} width={80} height={80} src={'/images/iconPhoto.png'} alt={'logo-photo'}/>
                 </Link>
