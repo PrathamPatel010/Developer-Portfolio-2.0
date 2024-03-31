@@ -4,7 +4,7 @@ const Footer = () => {
 
     return (
         <>
-            <section id="socials" className="pb-5 pt-10 md:pt-20">
+            <section id="socials" className="text-slate-100 pb-5 pt-10 md:pt-20">
                 <div className="text-center">
                     <h1 className="text-3xl font-bold text-center">Let&apos;s Connect on Socials</h1>
                 </div>

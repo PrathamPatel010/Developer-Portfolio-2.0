@@ -12,7 +12,7 @@ const TechCard = ({ title, tech }) => {
                     <div
                         key={i}
                         className={cn(
-                            'rounded-md bg-[#15121a] text-xs text-primary p-2',
+                            'rounded-md bg-[#15121a] text-xs text-slate-100 p-2',
                             item === 'Tailwind' && 'border border-blue-500/60',
                             item === 'Javascript' && 'border border-yellow-500/60',
                             item === 'React.js' && 'border border-green-500/60',

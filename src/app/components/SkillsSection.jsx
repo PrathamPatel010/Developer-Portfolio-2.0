@@ -3,9 +3,9 @@ import TechCard from './Cards/TechCard';
 
 const SkillsSection = () => {
     return (
-        <section id={'skills'}>
+        <section className={'text-slate-100'} id={'skills'}>
             <div className="col-span-2 p-6 md:col-span-2 lg:col-span-3 mt-0 md:mt-24">
-                <div className="text-4xl text-center font-medium mt-2 text-zinc-200 mb-5">
+                <div className="text-4xl text-center font-medium mt-2 mb-5">
                     Skills
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
