@@ -2,6 +2,7 @@ import Navbar from "@/app/components/Navbar";
 import HeroSection from './components/HeroSection';
 import SkillsSection from "./components/SkillsSection";
 import ProjectCardSection from "@/app/components/ProjectSection";
+import EmailSection from "@/app/components/EmailSection";
 import {projects} from './data/index';
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
             <HeroSection/>
             <SkillsSection/>
             <ProjectCardSection title={'Projects'} data={projects}/>
+            <EmailSection/>
         </div>
     </main>
   );
