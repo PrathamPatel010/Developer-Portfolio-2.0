@@ -24,7 +24,7 @@ const SkillsSection = () => {
                     <TechCard
                         title="Backend Tech."
                         className="bg-[#f37c36]"
-                        tech={['Node.js', 'Express.js','Microservices Architecture']}
+                        tech={['Node.js', 'Express.js','Microservice Architecture']}
                     />
                     <TechCard
                         title="Database & ORM"

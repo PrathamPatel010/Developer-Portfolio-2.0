@@ -4,6 +4,7 @@ import SkillsSection from "./components/SkillsSection";
 import ProjectCardSection from "@/app/components/ProjectSection";
 import EmailSection from "@/app/components/EmailSection";
 import {projects} from './data/index';
+import Footer from "@/app/components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
             <SkillsSection/>
             <ProjectCardSection title={'Projects'} data={projects}/>
             <EmailSection/>
+            <Footer/>
         </div>
     </main>
   );
