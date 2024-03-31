@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
         <html lang="en">
         <head>
             <title>Pratham Patel</title>
-            <link rel="icon" type="image/svg+xml" href="/images/iconPhoto.png" />
+            <link rel="icon" type="image/png" href="/images/iconPhoto.png" />
         </head>
         <body className={inter.className}>{children}</body>
         </html>

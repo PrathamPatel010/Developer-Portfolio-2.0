@@ -12,13 +12,13 @@ const TechCard = ({ title, tech }) => {
                     <div
                         key={i}
                         className={cn(
-                            'rounded-md bg-[#15121a] text-xs text-slate-100 p-2',
+                            'rounded-md bg-[#15121a] text-s text-slate-100 p-2',
                             item === 'Tailwind' && 'border border-blue-500/60',
                             item === 'Javascript' && 'border border-yellow-500/60',
                             item === 'React.js' && 'border border-green-500/60',
                             item === 'Next.js' && 'border border-red-500/60',
                             item === 'Node.js' && 'border border-green-500/60',
-                            item === 'Microservices Architecture' && 'border border-blue-500/60',
+                            item === 'Microservice Architecture' && 'border border-blue-500/60',
                             item === 'Express.js' && 'border border-yellow-500/60',
                             item === 'MySQL' && 'border border-orange-500/60',
                             item === 'MongoDB' && 'border border-emerald-500/60',
