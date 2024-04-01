@@ -3,26 +3,15 @@ import {useState,useEffect} from "react";
 import backendFunFacts from "@/app/utils/backendFacts";
 
 const Loader = () => {
-    const [lastIndices, setLastIndices] = useState([]);
     const [randomFact, setRandomFact] = useState('');
     useEffect(() => {
         const getRandomFact = () => {
-            let randomNumber;
-            do {
-                randomNumber = Math.floor(Math.random() * backendFunFacts.length);
-            } while (lastIndices.includes(randomNumber));
-
-            // maintain a list of last 5 indices to avoid immediate repetition
-            const updatedIndices = [...lastIndices, randomNumber].slice(-5);
-            setLastIndices(updatedIndices);
+            const randomNumber = Math.floor(Math.random() * backendFunFacts.length);
             setRandomFact(backendFunFacts[randomNumber]);
             return;
         }
-        // get the fact only if it is not fetched yet
-        if (lastIndices.length === 0 || randomFact === '') {
-            getRandomFact();
-        }
-    }, [lastIndices, randomFact]);
+        getRandomFact();
+    }, []);
 
     return (
         <>
@@ -63,7 +52,7 @@ const Loader = () => {
                     <span></span>
                 </div>
             </div>
-            <div className="text-center font-semibold text-lg pt-5 md:pt-16">
+            <div className="text-center font-semibold text-xs md:text-lg pt-5 md:pt-16">
                 <h4>{randomFact}</h4>
             </div>
         </>
