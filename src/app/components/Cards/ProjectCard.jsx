@@ -13,7 +13,7 @@ const ProjectsCard = ({ title, src, href, details }) => {
                     height={700}
                     className="aspect-video object-fit md:aspect-square md:object-cover"
                 />
-                <div className="flex flex-col px-4 py-2 h-max md:h-40 lg:h-32 xl:h-28">
+                <div className="flex flex-col px-2 py-1 h-max md:h-40 lg:h-32 xl:h-28">
                     <div className="flex font-bold">{title}</div>
                     <div className="flex text-info text-s">{details}</div>
                 </div>

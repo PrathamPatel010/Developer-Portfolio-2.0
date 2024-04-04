@@ -19,7 +19,7 @@ const Footer = () => {
                             <BsTwitterX/>
                         </Link>
                 </div>
-                <div className="pt-5 text-slate-500 text-right">
+                <div className="pt-5 text-slate-500 text-center">
                     <small>©Copyright 2024-Pratham Patel. All rights reserved.</small>
                 </div>
             </section>
