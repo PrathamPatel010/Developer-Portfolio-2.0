@@ -38,9 +38,11 @@ const HeroSection = () => {
                         <button onClick={()=>window.location.href='#connect'} className={'px-6 py-3 w-full sm:w-fit rounded-full mr-4 text-black bg-white hover:bg-slate-400'}>
                             Hire Me
                         </button>
-                        <button className={'px-6 py-3 w-full sm:w-fit rounded-full text-white border border-white bg-transparent hover:bg-slate-500 mt-3'}>
-                            <a href={'/PrathamPatel_Resume.pdf'} download={'PrathamPatel_Resume'} rel={"noopener noreferrer"} target={'_blank'}>Download Resume</a>
-                        </button>
+                            <a href={'/PrathamPatel_Resume.pdf'} download={'PrathamPatel_Resume'} rel={"noopener noreferrer"} target={'_blank'}>
+                                <button className={'px-6 py-3 w-full sm:w-fit rounded-full text-white border border-white bg-transparent hover:bg-slate-500 mt-3'}>
+                                Download Resume
+                                </button>
+                            </a>
                     </div>
                 </div>
                 <div className={'col-span-5 place-self-center mt-4 lg:mt-0'}>
