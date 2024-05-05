@@ -3,7 +3,7 @@ import  {cn}  from '../../utils/util';
 
 const TechCard = ({ title, tech }) => {
     return (
-        <div className="flex-1 flex flex-col gap-4 bg-[#1c1b23] p-4 rounded-md shadow-lg">
+        <div className="flex-1 flex flex-col gap-4 bg-[#1c1b23] p-4 rounded-md shadow-lg  hover:border-2 border-slate-50">
             <div className="text-primary font-medium text-lg tracking-wider">
                 {title}
             </div>

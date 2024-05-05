@@ -5,7 +5,7 @@ import Image from 'next/image';
 const ProjectsCard = ({ title, src, href, details }) => {
     return (
         <Link href={href || '/'} target="_blank">
-            <div className="flex flex-col overflow-hidden gap-3 bg-slate-700 text-zinc-200 rounded-lg overflow-ellipsis">
+            <div className="flex flex-col overflow-hidden gap-3 bg-slate-700 text-zinc-200 rounded-lg overflow-ellipsis  hover:border-2 border-slate-50">
                 <Image
                     src={`/projects/${src}`}
                     alt="spotify"
