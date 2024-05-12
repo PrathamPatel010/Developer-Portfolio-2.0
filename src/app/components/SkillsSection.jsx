@@ -13,32 +13,99 @@ const SkillsSection = () => {
                         title="Frontend Tech."
                         className="bg-[#4f91f2]"
                         tech={[
-                            'HTML',
-                            'CSS',
-                            'Tailwind',
-                            'Javascript',
-                            'React.js',
-                            'Next.js'
+                            {
+                                name:'HTML',
+                                path: '/skills/html5.svg'
+                            },
+                            {
+
+                                name:'CSS',
+                                path: '/skills/css3.svg'
+                            },
+                            {
+                                name:'Tailwind',
+                                path: '/skills/tailwind.svg'
+                            },
+                            {
+                                name:'Javascript',
+                                path: '/skills/js.svg'
+                            },
+                            {
+                                name:'React.js',
+                                path: '/skills/react.svg'
+                            },
+                            {
+                                name:'Next.js',
+                                path: '/skills/next.svg'
+                            }
                         ]}
                     />
                     <TechCard
                         title="Backend Tech."
                         className="bg-[#f37c36]"
-                        tech={['Node.js', 'Express.js','Microservice Architecture']}
+                        tech={[
+                            {
+                                name:'Node.js',
+                                path: '/skills/nodejs.svg'
+                            },
+                            {
+                                name:'Express.js',
+                                path: '/skills/express.svg',
+                            },
+                            {
+                                name: 'Microservice Architecture',
+                                path: '/skills/microservice.svg'
+                            },
+                            {
+                                name: 'Monolith Architecture',
+                                path: '/skills/monolith.svg'
+                            }
+                        ]
+                        }
                     />
                     <TechCard
                         title="Database & ORM"
                             className="bg-[#e0558a]"
-                        tech={['MySQL', 'MongoDB', 'PostgreSQL','Sequelize']}
+                        tech={[
+                            {
+                                name:'MySQL',
+                                path: '/skills/mysql.svg'
+                            },
+                            {
+
+                                name:'MongoDB',
+                                path: '/skills/mongo.svg'
+                            },
+                            {
+                                name:'Postgres',
+                                path: '/skills/postgresql.svg'
+                            },
+                            {
+                                name:'Sequelize',
+                                path: '/skills/sequelize.svg'
+                            },
+                        ]}
                     />
                     <TechCard
-                        title="Other"
+                        title="Tools & Others"
                         className="bg-[#10c0a2]"
                         tech={[
-                            'Microsoft Azure',
-                            'Git & GitHub',
-                            'Netlify',
-                            'Render'
+                            {
+                                name:'Microsoft Azure',
+                                path: '/skills/azure.svg'
+                            },
+                            {
+                                name:'Git',
+                                path: '/skills/git.svg'
+                            },
+                            {
+                                name:'Postman',
+                                path: '/skills/postman.svg'
+                            },
+                            {
+                                name:'GitHub',
+                                path: '/skills/github.svg'
+                            },
                         ]}
                     />
                 </div>

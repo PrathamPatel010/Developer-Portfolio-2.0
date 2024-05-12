@@ -9,7 +9,7 @@ import Footer from "@/app/components/Footer";
 export default function Home() {
 
     return (
-      <main style={{backgroundImage:`url(images/banner-bg.png)`,backgroundRepeat:"no-repeat",backgroundSize:'cover'}} className="flex min-h-screen bg-[#121212]">
+      <main style={{backgroundImage:`url(images/banner-bg.png)`,backgroundSize:"cover"}} className="flex min-h-screen min-w-full bg-[#121212] bg-no-repeat">
         <Navbar/>
         <div className={'container mt-24 mx-auto px-6 md:px-12 py-4'}>
             <HeroSection/>
