@@ -15,7 +15,7 @@ export default function Home() {
         <Navbar/>
         <div className={'container mt-24 mx-auto px-6 md:px-12 py-4'}>
             <HeroSection/>
-            <Contribution/>
+            {/*<Contribution/>*/}
             <SkillsSection/>
             <ProjectCardSection title={'Projects'} data={projects}/>
             <EmailSection/>
