@@ -4,7 +4,6 @@ import Image from "next/image";
 
 const TechCard = ({ title, tech }) => {
     return (
-        // <div className="flex-1 flex flex-col gap-4 bg-gradient-to-r from-[#24242a] to-gray-500 p-4 rounded-md shadow-lg">
         <div className="flex-1 flex flex-col gap-4 bg-gradient-to-r from-[#2c2c31] to-[#1d1e20] p-4 rounded-md shadow-lg">
             <div className="min-w-full text-primary font-medium text-lg tracking-wider">
                 {title}
