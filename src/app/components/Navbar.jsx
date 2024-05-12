@@ -9,6 +9,10 @@ import Image from "next/image";
 const Navbar = () => {
     const navLinks = [
         {
+            title: 'Contribution',
+            href: '#contribution',
+        },
+        {
             title: 'Skills',
             href: '#skills'
         },

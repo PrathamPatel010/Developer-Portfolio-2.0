@@ -53,13 +53,13 @@ const SkillsSection = () => {
                                 path: '/skills/express.svg',
                             },
                             {
+                                name: 'Monolith Architecture',
+                                path: '/skills/monolith.svg'
+                            },
+                            {
                                 name: 'Microservice Architecture',
                                 path: '/skills/microservice.svg'
                             },
-                            {
-                                name: 'Monolith Architecture',
-                                path: '/skills/monolith.svg'
-                            }
                         ]
                         }
                     />

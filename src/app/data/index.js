@@ -45,4 +45,20 @@ const projects = [
         href: 'https://github.com/PrathamPatel010/Google-Flights-Microservice-Backend',
     }
 ]
-export {about,projects};
+
+
+const contributions = [
+    {
+        timeline: "May 2024 — August 2024",
+        eventName: "Contributor",
+        company: "GirlScript Summer of Code",
+        link: "https://gssoc.girlscript.tech/",
+        detailedWork: [
+            "Working on backend focused project that aims at improving developer productivity",
+            "Working on internal tools for increasing safety while browsing to prevent cyber attacks."
+        ],
+        techStack: ["Nest.js", "TypeScript","Bash"]
+    },
+];
+
+export {about,projects,contributions};

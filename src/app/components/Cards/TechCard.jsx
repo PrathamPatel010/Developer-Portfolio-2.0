@@ -20,14 +20,15 @@ const TechCard = ({ title, tech }) => {
                             item.name === 'Next.js' && 'border border-red-500/60',
                             item.name === 'Node.js' && 'border border-green-500/60',
                             item.name === 'Microservice Architecture' && 'border border-blue-500/60',
+                            item.name === 'Monolith Architecture' && 'border border-red-500/60',
                             item.name === 'Express.js' && 'border border-yellow-500/60',
                             item.name === 'MySQL' && 'border border-orange-500/60',
                             item.name === 'MongoDB' && 'border border-emerald-500/60',
                             item.name === 'PostgreSQL' && 'border border-blue-500/60',
                             item.name === 'Sequelize' && 'border border-pink-500/60',
-                            item.name === 'Git & GitHub' && 'border border-blue-500/60',
-                            item.name === 'Netlify' && 'border border-green-500/60',
-                            item.name === 'Render' && 'border border-red-500/60',
+                            item.name === 'Git' && 'border border-blue-500/60',
+                            item.name === 'GitHub' && 'border border-green-500/60',
+                            item.name === 'Postman' && 'border border-orange-500/60',
                             item.name === 'Microsoft Azure' && 'border border-yellow-500/60'
                         )}
                     >
