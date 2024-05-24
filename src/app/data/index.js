@@ -50,7 +50,7 @@ const projects = [
 
 const contributions = [
     {
-        timeline: "May 2024 — August 2024",
+        timeline: "May 2024 — Present",
         eventName: "GirlScript Summer of Code",
         role: "Contributor",
         link: "https://gssoc.girlscript.tech/",

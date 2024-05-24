@@ -3,7 +3,7 @@ import TechCard from './Cards/TechCard';
 
 const SkillsSection = () => {
     return (
-        <section className={'text-slate-100'} id={'skills'}>
+        <section className={'text-slate-100 pt-5'} id={'skills'}>
             <div className="col-span-2 p-6 md:col-span-2 lg:col-span-3 mt-0 md:mt-24">
                 <div className="text-4xl text-center font-medium mt-2 mb-5">
                     Skills
@@ -38,10 +38,10 @@ const SkillsSection = () => {
                                 name:'Next.js',
                                 path: '/skills/next.svg'
                             },
-                            // {
-                            //     name: 'TypeScript',
-                            //     path: '/skills/typescript.svg'
-                            // }
+                            {
+                                name: 'TypeScript',
+                                path: '/skills/typescript.svg'
+                            }
                         ]}
                     />
                     <TechCard
@@ -56,14 +56,14 @@ const SkillsSection = () => {
                                 name:'Express.js',
                                 path: '/skills/express.svg',
                             },
-                            // {
-                            //     name: 'Nest.js',
-                            //     path: '/skills/nestjs.svg'
-                            // },
-                            // {
-                            //     name: 'TypeScript',
-                            //     path: '/skills/typescript.svg'
-                            // },
+                            {
+                                name: 'Nest.js',
+                                path: '/skills/nestjs.svg'
+                            },
+                            {
+                                name: 'TypeScript',
+                                path: '/skills/typescript.svg'
+                            },
                             {
                                 name: 'Monolith Architecture',
                                 path: '/skills/monolith.svg'
@@ -96,10 +96,10 @@ const SkillsSection = () => {
                                 name:'Sequelize',
                                 path: '/skills/sequelize.svg'
                             },
-                            // {
-                            //     name: 'Prisma',
-                            //     path: '/skills/prisma.svg'
-                            // }
+                            {
+                                name: 'Prisma',
+                                path: '/skills/prisma.svg'
+                            }
                         ]}
                     />
                     <TechCard

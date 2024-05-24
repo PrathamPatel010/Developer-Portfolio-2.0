@@ -29,7 +29,10 @@ const TechCard = ({ title, tech }) => {
                             item.name === 'Git' && 'border border-blue-500/60',
                             item.name === 'GitHub' && 'border border-green-500/60',
                             item.name === 'Postman' && 'border border-orange-500/60',
-                            item.name === 'Microsoft Azure' && 'border border-yellow-500/60'
+                            item.name === 'Microsoft Azure' && 'border border-yellow-500/60',
+                            item.name === 'TypeScript' && 'border border-yellow-500/60',
+                            item.name === 'Nest.js' && 'border border-pink-500/60',
+                            item.name === 'Prisma' && 'border border-blue-500/60',
                         )}
                     >
                     <div className={'flex justify-center items-center'}>
