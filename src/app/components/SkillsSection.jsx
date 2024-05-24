@@ -37,7 +37,11 @@ const SkillsSection = () => {
                             {
                                 name:'Next.js',
                                 path: '/skills/next.svg'
-                            }
+                            },
+                            // {
+                            //     name: 'TypeScript',
+                            //     path: '/skills/typescript.svg'
+                            // }
                         ]}
                     />
                     <TechCard
@@ -52,6 +56,14 @@ const SkillsSection = () => {
                                 name:'Express.js',
                                 path: '/skills/express.svg',
                             },
+                            // {
+                            //     name: 'Nest.js',
+                            //     path: '/skills/nestjs.svg'
+                            // },
+                            // {
+                            //     name: 'TypeScript',
+                            //     path: '/skills/typescript.svg'
+                            // },
                             {
                                 name: 'Monolith Architecture',
                                 path: '/skills/monolith.svg'
@@ -84,6 +96,10 @@ const SkillsSection = () => {
                                 name:'Sequelize',
                                 path: '/skills/sequelize.svg'
                             },
+                            // {
+                            //     name: 'Prisma',
+                            //     path: '/skills/prisma.svg'
+                            // }
                         ]}
                     />
                     <TechCard
