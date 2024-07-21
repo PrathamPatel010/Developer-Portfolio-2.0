@@ -1,4 +1,4 @@
-const about = `Hey, I'm Pratham, a software engineer with a passion for crafting scalable systems that solve real-world problems. Currently diving deep into advanced backend engineering, system designing. I'm all about building innovative products that make a difference. Let's connect and build something impactful together!`;
+const about = `Hey, I'm Pratham, a software engineer with a passion for crafting scalable systems that solve real-world problems. I'm all about building innovative products that make a difference. Let's connect and build something impactful together!`;
 
 const projects = [
     {
@@ -68,15 +68,13 @@ const contributions = [
 
 const workExperience = [
     {
-        timeline: "May 2024 - Present",
+        timeline: "May 2024 - June 2024",
         roleName: "Full-Stack Engineer Intern",
-        company: "Logicube IT",
+        company: "Logic Cube IT Pvt. Ltd.",
         description: [
-            "Collaborating with a team of 5 engineers to develop a microservices architecture-based full-stack CMS platform.",
-            "Focusing on backend API development using Nest.js and TypeScript, ensuring robust and scalable endpoints.",
-            "Managing database operations, including schema design and query optimization, using MongoDB with Prisma as ORM.",
-            "Implementing responsive front-end components using Next.js and TypeScript, ensuring seamless user interactions.",
-            "Contributing to code reviews, ensuring adherence to best practices and high code quality.",
+            "Collaborated with a team of 5 engineers to develop a microservices architecture-based full-stack CMS platform.",
+            "Worked on backend API development using Nest.js and TypeScript, ensuring high peformance.",
+            "Fixed bugs on front-end that were causing the platforms to crash and security bugs that were leaking the sensitive information.",
         ],
         techStack: ["Nest.js", "Next.js", "TypeScript", "MongoDB", "Prisma","Git", "GitHub"]
     }
