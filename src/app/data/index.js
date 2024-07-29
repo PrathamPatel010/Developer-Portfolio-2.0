@@ -5,7 +5,7 @@ const projects = [
         id: 1,
         title: 'TaskEasy',
         details: 'A Secured Todo App for tracking all your day-to-day tasks',
-        imageUrl: 'mk1.png',
+        imageUrl: 'mk1.webp',
         href: 'http://github.com/PrathamPatel010/TaskEasy',
     },
     {
@@ -13,7 +13,7 @@ const projects = [
         title: 'QuickShare',
         details:
             'A Quick and Password-protected way to share files with anyone',
-        imageUrl: 'mk2.png',
+        imageUrl: 'mk2.webp',
         href: 'https://github.com/PrathamPatel010/File-Sharing-App',
     },
     {
@@ -21,28 +21,28 @@ const projects = [
         title: 'SpendWise',
         details:
             'Efficient tool to keep track of all your expenses built using MERN Stack, Google OAuth 2.0',
-        imageUrl: 'mk3.png',
+        imageUrl: 'mk3.webp',
         href: 'https://github.com/PrathamPatel010/Money-Tracking-App',
     },
     {
         id: 4,
         title: 'Citizen Voice',
         details: 'Police-Citizen Feedback management system exclusively for Gujarat Police',
-        imageUrl: 'mk4.png',
+        imageUrl: 'mk4.webp',
         href: 'https://github.com/PrathamPatel010/Citizen-Voice',
     },
     {
         id: 5,
         title: 'QuickChat',
         details: 'A Web-based Messaging platform exclusively for college students',
-        imageUrl: 'mk5.png',
+        imageUrl: 'mk5.webp',
         href: 'https://github.com/PrathamPatel010/Quick-Chat',
     },
     {
         id: 6,
         title: 'Google Flights',
         details: 'Microservice Architecture based Airline Booking Backend System',
-        imageUrl: 'mk6.png',
+        imageUrl: 'mk6.webp',
         href: 'https://github.com/PrathamPatel010/Google-Flights-Microservice-Backend',
     }
 ]

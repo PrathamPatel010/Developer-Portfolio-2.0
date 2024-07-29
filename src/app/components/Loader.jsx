@@ -1,5 +1,5 @@
 import './loader.css';
-import {useState,useEffect} from "react";
+import { useState, useEffect } from "react";
 import backendFunFacts from "@/app/utils/backendFacts";
 
 const Loader = () => {

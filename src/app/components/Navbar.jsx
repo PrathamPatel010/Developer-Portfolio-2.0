@@ -44,7 +44,7 @@ const Navbar = () => {
         <nav className={'fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-80'}>
             <div className={'flex flex-wrap items-center justify-between mx-auto mt-3 px-5'}>
                 <Link href={"/"} className={'text-5xl text-white font-semibold'}>
-                    <Image className={'rounded-full'} width={70} height={70} src={'/images/iconPhoto.png'} alt={'logo-photo'} />
+                    <Image className={'rounded-full'} width={70} height={70} src={'/images/iconPhoto.webp'} alt={'logo-photo'} />
                 </Link>
 
                 <div className={'mobile-menu block md:hidden'}>

@@ -8,7 +8,7 @@ const ProjectsCard = ({ title, src, href, details }) => {
             <div className="flex flex-col overflow-hidden gap-3 bg-gradient-to-r from-[#2c2c30] to-[#1d1e20] text-white rounded-lg overflow-ellipsis">
                 <Image
                     src={`/projects/${src}`}
-                    alt="spotify"
+                    alt="project-photo"
                     width={700}
                     height={700}
                     className="aspect-video object-fit md:aspect-square md:object-cover"

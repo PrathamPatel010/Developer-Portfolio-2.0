@@ -1,10 +1,5 @@
-import GitHubIcon from '../../../public/images/github-icon.svg';
-import LinkedInIcon from '../../../public/images/linkedin-icon.svg';
-import Image from "next/image";
-import Link from 'next/link';
-
 const Connect = () => {
-    return(
+    return (
         <div className={'text-slate-100'}>
             <h5 className={'text-3xl font-bold text-white my-2'}>Let&apos; Connect</h5>
             <p className={'text-sm md:text-2xl text-[#ADB7BE] mt-3 md:mt-8 max-w-md'}>

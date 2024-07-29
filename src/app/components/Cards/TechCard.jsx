@@ -1,5 +1,5 @@
 import React from 'react';
-import  {cn}  from '../../utils/util';
+import { cn } from '../../utils/util';
 import Image from "next/image";
 
 const TechCard = ({ title, tech }) => {
@@ -35,20 +35,20 @@ const TechCard = ({ title, tech }) => {
                             item.name === 'Prisma' && 'border border-blue-500/60',
                         )}
                     >
-                    <div className={'flex justify-center items-center'}>
-                        <div>
-                            <Image
-                                src={item?.path}
-                                alt={`${item} logo`}
-                                className="w-6 h-6"
-                                width={'6'}
-                                height={'6'}
-                            />
+                        <div className={'flex justify-center items-center'}>
+                            <div>
+                                <Image
+                                    src={item?.path}
+                                    alt={`${item} logo`}
+                                    className="w-6 h-6"
+                                    width={100}
+                                    height={100}
+                                />
+                            </div>
+                            <div className={'ml-2'}>
+                                {item.name}
+                            </div>
                         </div>
-                        <div className={'ml-2'}>
-                            {item.name}
-                        </div>
-                    </div>
                     </div>
                 ))}
             </div>

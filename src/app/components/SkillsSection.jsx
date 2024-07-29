@@ -14,33 +14,33 @@ const SkillsSection = () => {
                         className="bg-[#4f91f2]"
                         tech={[
                             {
-                                name:'HTML',
-                                path: '/skills/html5.svg'
+                                name: 'HTML',
+                                path: '/skills/html5.webp'
                             },
                             {
 
-                                name:'CSS',
-                                path: '/skills/css3.svg'
+                                name: 'CSS',
+                                path: '/skills/css3.webp'
                             },
                             {
-                                name:'Tailwind',
-                                path: '/skills/tailwind.svg'
+                                name: 'Tailwind',
+                                path: '/skills/tailwind.webp'
                             },
                             {
-                                name:'Javascript',
-                                path: '/skills/js.svg'
+                                name: 'Javascript',
+                                path: '/skills/js.webp'
                             },
                             {
-                                name:'React.js',
-                                path: '/skills/react.svg'
+                                name: 'React.js',
+                                path: '/skills/react.webp'
                             },
                             {
-                                name:'Next.js',
-                                path: '/skills/next.svg'
+                                name: 'Next.js',
+                                path: '/skills/next.webp'
                             },
                             {
                                 name: 'TypeScript',
-                                path: '/skills/typescript.svg'
+                                path: '/skills/typescript.webp'
                             }
                         ]}
                     />
@@ -49,56 +49,56 @@ const SkillsSection = () => {
                         className="bg-[#f37c36]"
                         tech={[
                             {
-                                name:'Node.js',
-                                path: '/skills/nodejs.svg'
+                                name: 'Node.js',
+                                path: '/skills/nodejs.webp'
                             },
                             {
-                                name:'Express.js',
-                                path: '/skills/express.svg',
+                                name: 'Express.js',
+                                path: '/skills/express.webp',
                             },
                             {
                                 name: 'Nest.js',
-                                path: '/skills/nestjs.svg'
+                                path: '/skills/nestjs.webp'
                             },
                             {
                                 name: 'TypeScript',
-                                path: '/skills/typescript.svg'
+                                path: '/skills/typescript.webp'
                             },
                             {
                                 name: 'Monolith Architecture',
-                                path: '/skills/monolith.svg'
+                                path: '/skills/monolith.webp'
                             },
                             {
                                 name: 'Microservice Architecture',
-                                path: '/skills/microservice.svg'
+                                path: '/skills/microservice.webp'
                             },
                         ]
                         }
                     />
                     <TechCard
                         title="Database & ORM"
-                            className="bg-[#e0558a]"
+                        className="bg-[#e0558a]"
                         tech={[
                             {
-                                name:'MySQL',
-                                path: '/skills/mysql.svg'
+                                name: 'MySQL',
+                                path: '/skills/mysql.webp'
                             },
                             {
 
-                                name:'MongoDB',
-                                path: '/skills/mongo.svg'
+                                name: 'MongoDB',
+                                path: '/skills/mongo.webp'
                             },
                             {
-                                name:'Postgres',
-                                path: '/skills/postgresql.svg'
+                                name: 'Postgres',
+                                path: '/skills/postgresql.webp'
                             },
                             {
-                                name:'Sequelize',
-                                path: '/skills/sequelize.svg'
+                                name: 'Sequelize',
+                                path: '/skills/sequelize.webp'
                             },
                             {
                                 name: 'Prisma',
-                                path: '/skills/prisma.svg'
+                                path: '/skills/prisma.webp'
                             }
                         ]}
                     />
@@ -107,20 +107,20 @@ const SkillsSection = () => {
                         className="bg-[#10c0a2]"
                         tech={[
                             {
-                                name:'Microsoft Azure',
-                                path: '/skills/azure.svg'
+                                name: 'Microsoft Azure',
+                                path: '/skills/azure.webp'
                             },
                             {
-                                name:'Git',
-                                path: '/skills/git.svg'
+                                name: 'Git',
+                                path: '/skills/git.webp'
                             },
                             {
-                                name:'Postman',
-                                path: '/skills/postman.svg'
+                                name: 'Postman',
+                                path: '/skills/postman.webp'
                             },
                             {
-                                name:'GitHub',
-                                path: '/skills/github.svg'
+                                name: 'GitHub',
+                                path: '/skills/github.webp'
                             },
                         ]}
                     />
