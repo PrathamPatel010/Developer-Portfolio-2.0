@@ -61,6 +61,10 @@ const SkillsSection = () => {
                                 path: '/skills/nestjs.webp'
                             },
                             {
+                                name: '.NET Core',
+                                path: '/skills/dot-net.webp'
+                            },
+                            {
                                 name: 'TypeScript',
                                 path: '/skills/typescript.webp'
                             },

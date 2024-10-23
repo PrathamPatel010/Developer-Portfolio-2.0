@@ -35,7 +35,7 @@ const HeroSection = () => {
                         {about}
                     </p>
                     <div>
-                        <button onClick={() => window.location.href = '#connect'} className={'px-6 py-3 w-full sm:w-fit rounded-full mr-4 text-black bg-white hover:bg-slate-400'}>
+                        <button onClick={() => (window.location.href = 'mailto:prathampatel0221@gmail.com?subject=Hire%20Me&body=I%20am%20interested%20in%20working%20with%20you!')} className={'px-6 py-3 w-full sm:w-fit rounded-full mr-4 text-black bg-white hover:bg-slate-400'}>
                             Hire Me
                         </button>
                         <a href={'/PrathamPatel_Resume.pdf'} download={'PrathamPatel_Resume'} rel={"noopener noreferrer"} target={'_blank'}>
