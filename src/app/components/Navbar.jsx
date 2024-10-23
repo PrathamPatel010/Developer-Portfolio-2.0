@@ -28,10 +28,10 @@ const Navbar = () => {
         //     title: 'Blogs',
         //     href: '#blogs'
         // },
-        {
-            title: 'Connect',
-            href: '#connect'
-        },
+        // {
+        //     title: 'Connect',
+        //     href: '#connect'
+        // },
         {
             title: 'Socials',
             href: '#socials'

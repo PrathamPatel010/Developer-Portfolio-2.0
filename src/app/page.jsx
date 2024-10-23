@@ -16,7 +16,6 @@ export default function Home() {
         <WorkExperience />
         <SkillsSection />
         <ProjectCardSection title={'Projects'} data={projects} />
-        <EmailSection />
       </div>
     </main>
   );
