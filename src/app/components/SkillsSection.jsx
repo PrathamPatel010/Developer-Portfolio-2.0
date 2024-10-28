@@ -3,8 +3,8 @@ import TechCard from './Cards/TechCard';
 
 const SkillsSection = () => {
     return (
-        <section className={'text-slate-100 pt-5'} id={'skills'}>
-            <div className="col-span-2 p-6 md:col-span-2 lg:col-span-3 mt-0 md:mt-24">
+        <section className={'pt-10 text-slate-100 md:mt-20 md:pt-16'} id={'skills'}>
+            <div className="col-span-2 md:col-span-2 lg:col-span-3">
                 <div className="text-4xl text-center font-medium mt-2 mb-5">
                     Skills
                 </div>
