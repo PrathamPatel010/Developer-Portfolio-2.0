@@ -2,7 +2,7 @@ import React from 'react';
 
 const MenuOverlay = ({ links }) => {
     const handleClick = (href) => {
-        if(href=="/") return;
+        if(href=="/") return window.location.href="#hero";
         const target = document.querySelector(href);
         if (target) {
             target.scrollIntoView({ behavior: 'smooth' });

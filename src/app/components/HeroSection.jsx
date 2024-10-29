@@ -6,7 +6,7 @@ import { about } from "../data";
 const HeroSection = () => {
   return (
     <section id={"hero"}>
-      <div className="grid grid-cols-1 md:grid-cols-2 sm:gap-x-10 lg:grid-cols-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-y-20 sm:gap-x-10 lg:grid-cols-12">
         <div className="col-span-1 md:order-2 lg:col-span-5 place-self-center mt-4 lg:mt-0">
           <div className="relative rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]">
             <Image
