@@ -1,4 +1,4 @@
-const about = `Hey, I'm Pratham, a software engineer with a passion for crafting scalable systems that solve real-world problems. I'm all about building innovative products that make a difference. Let's connect and build something impactful together!`;
+const about = `Hey, I'm Pratham — a Computer Engineering graduate and full-stack developer. With hands-on experience working on live enterprise projects at System Level Solutions, I enjoy building scalable web apps using Angular, .NET Core, and other modern technologies. I love creating practical solutions that solve real-world problems and bring actual value to users.`;
 
 const projects = [
   {
@@ -33,10 +33,10 @@ const projects = [
   },
   {
     id: 5,
-    title: "QuickChat",
+    title: "College Connect",
     details: "A Web-based Messaging platform exclusively for college students",
     imageUrl: "mk5.webp",
-    href: "https://github.com/PrathamPatel010/Quick-Chat",
+    href: "https://github.com/PrathamPatel010/College-Connect",
   },
   {
     id: 6,
@@ -44,6 +44,22 @@ const projects = [
     details: "Microservice Architecture based Airline Booking Backend System",
     imageUrl: "mk6.webp",
     href: "https://github.com/PrathamPatel010/Google-Flights-Microservice-Backend",
+  },
+  {
+    id: 7,
+    title: "Ski-Mart",
+    details:
+      "Full-Stack E-Commerce Platform with Secure Checkout and Admin Dashboard",
+    imageUrl: "mk7.png",
+    href: "https://drive.google.com/file/d/1UYtIeV7ioqyuo1ZXL4BRxUa2LuuY8baV/view?usp=sharing",
+  },
+  {
+    id: 8,
+    title: "PMS",
+    details:
+      "Multi-Tenant Project & Task Management System with RBAC and Real-Time Sync",
+    imageUrl: "mk8.svg",
+    href: "https://drive.google.com/file/d/1kZsS6bDZUs_5vTZl1zNlGXyK4Loun5bE/view?usp=sharing",
   },
 ];
 
@@ -73,20 +89,20 @@ const contributions = [
 
 const workExperience = [
   {
-    timeline: "May 2024 - June 2024",
-    roleName: "Full-Stack Engineer Intern",
-    company: "Logic Cube IT Pvt. Ltd.",
+    timeline: "Jan 2025 - June 2025",
+    roleName: "Software Engineer Intern",
+    company: "System Level Solutions India Pvt. Ltd.",
     description: [
-      "Collaborated with a team of 5 engineers to develop a microservices architecture-based full-stack CMS platform.",
-      "Worked on backend API development using Nest.js and TypeScript, ensuring high peformance.",
-      "Fixed bugs on front-end that were causing the platforms to crash and security bugs that were leaking the sensitive information.",
+      "Developed context-aware UI and dynamic reusable Angular components integrated with .NET Core REST APIs.",
+      "Designed database schema and core data flow logic for supplier and device registration in smart metering workflows.",
+      "Built a pluggable Rasa-based conversational AI for web portal integration to handle user intents and complaint logging.",
     ],
     techStack: [
-      "Nest.js",
-      "Next.js",
-      "TypeScript",
-      "MongoDB",
-      "Prisma",
+      "Angular",
+      "ASP.NET Core",
+      "PostgreSQL",
+      "Rasa",
+      "Redis",
       "Git",
       "GitHub",
     ],
@@ -153,7 +169,7 @@ const htmlTemplate = (bodyContent) => `
       <p><strong>Here's what was received:</strong><br>${bodyContent}</p>
     </div>
     <div class="footer">
-      &copy; 2024 Pratham Patel. All rights reserved.
+      &copy; 2025 Pratham Patel. All rights reserved.
     </div>
   </div>
 </body>
