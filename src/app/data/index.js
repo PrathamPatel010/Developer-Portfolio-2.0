@@ -1,4 +1,44 @@
-const about = `Hey, I'm Pratham — a Computer Engineering graduate and full-stack developer. With hands-on experience working on live enterprise projects at System Level Solutions, I enjoy building scalable web apps using Angular, .NET Core, and other modern technologies. I love creating practical solutions that solve real-world problems and bring actual value to users.`;
+const about = `I'm a Software Engineer with hands-on experience building and maintaining enterprise applications. Currently working at Adrta Technologies, I've taken ownership of core modules used in pharma compliant systems, handling everything from database design to backend logic and frontend implementation. I enjoy solving real-world problems, improving existing systems, and building features that are actually used in production. My focus is on writing clean, practical code and continuously improving as an engineer.`;
+
+const workExperience = [
+  {
+    timeline: "Sept 2025 - Present",
+    roleName: "Jr. Software Engineer",
+    company: "Adrta Technologies Pvt. Ltd.",
+    description: [
+      "Owned end-to-end development of Pharma Column Management and Standard Management modules, covering database design, backend logic, and frontend implementation.",
+      "Designed relational schemas and implemented complete data flows for pharma manufacturing use-cases with strong validation and data consistency.",
+      "Developed a centralized error logging system, later adopted across multiple products within the organization.",
+      "Resolved edge-case issues in SSO flows, improving authentication reliability and access control.",
+    ],
+    techStack: [
+      "Angular",
+      "ASP.NET Web API",
+      "SQL Server",
+      "Entity Framework",
+      "Git",
+    ],
+  },
+  {
+    timeline: "Jan 2025 - June 2025",
+    roleName: "Software Engineer Intern",
+    company: "System Level Solutions India Pvt. Ltd.",
+    description: [
+      "Developed reusable Angular components integrated with ASP.NET Core APIs for dynamic workflows.",
+      "Designed database schemas and backend flows for device and supplier onboarding.",
+      "Built authentication and configuration APIs and integrated a chatbot system for complaint handling.",
+    ],
+    techStack: [
+      "Angular",
+      "ASP.NET Core",
+      "PostgreSQL",
+      "Rasa",
+      "Redis",
+      "Git",
+      "GitHub",
+    ],
+  },
+];
 
 const projects = [
   {
@@ -60,52 +100,6 @@ const projects = [
       "Multi-Tenant Project & Task Management System with RBAC and Real-Time Sync",
     imageUrl: "mk8.svg",
     href: "https://drive.google.com/file/d/1kZsS6bDZUs_5vTZl1zNlGXyK4Loun5bE/view?usp=sharing",
-  },
-];
-
-const contributions = [
-  {
-    timeline: "May 2024 — Present",
-    eventName: "GirlScript Summer of Code",
-    role: "Contributor",
-    link: "https://gssoc.girlscript.tech/",
-    detailedWork: [
-      "Developing core backend functionalities for an open-source project aimed at enhancing user experience.",
-      "Contributing to the creation of RESTful APIs, enabling seamless data exchange between the client and server.",
-      "Implementing user authentication and authorization using JWT to ensure secure access to the platform.",
-      "Integrating third-party APIs to extend the project's capabilities and provide additional features.",
-      "Collaborating with other contributors to review and optimize code, ensuring high performance and scalability.",
-    ],
-    techStack: [
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "React.js",
-      "Next.js",
-      "Git",
-    ],
-  },
-];
-
-const workExperience = [
-  {
-    timeline: "Jan 2025 - June 2025",
-    roleName: "Software Engineer Intern",
-    company: "System Level Solutions India Pvt. Ltd.",
-    description: [
-      "Developed context-aware UI and dynamic reusable Angular components integrated with .NET Core REST APIs.",
-      "Designed database schema and core data flow logic for supplier and device registration in smart metering workflows.",
-      "Built a pluggable Rasa-based conversational AI for web portal integration to handle user intents and complaint logging.",
-    ],
-    techStack: [
-      "Angular",
-      "ASP.NET Core",
-      "PostgreSQL",
-      "Rasa",
-      "Redis",
-      "Git",
-      "GitHub",
-    ],
   },
 ];
 
@@ -175,5 +169,29 @@ const htmlTemplate = (bodyContent) => `
 </body>
 </html>
 `;
+
+const contributions = [
+  {
+    timeline: "May 2024 — Present",
+    eventName: "GirlScript Summer of Code",
+    role: "Contributor",
+    link: "https://gssoc.girlscript.tech/",
+    detailedWork: [
+      "Developing core backend functionalities for an open-source project aimed at enhancing user experience.",
+      "Contributing to the creation of RESTful APIs, enabling seamless data exchange between the client and server.",
+      "Implementing user authentication and authorization using JWT to ensure secure access to the platform.",
+      "Integrating third-party APIs to extend the project's capabilities and provide additional features.",
+      "Collaborating with other contributors to review and optimize code, ensuring high performance and scalability.",
+    ],
+    techStack: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "React.js",
+      "Next.js",
+      "Git",
+    ],
+  },
+];
 
 export { about, projects, contributions, workExperience, htmlTemplate };
